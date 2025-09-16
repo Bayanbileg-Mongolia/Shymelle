@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shymelle — YouTuber, Content Creator</title>
+  <meta name="description" content="Shymelle — Монгол YouTuber: влог, уран бүтээл, live performance болон сошиал контент." />
+  <meta property="og:title" content="Shymelle — YouTuber" />
+  <meta property="og:description" content="Shymelle-ийн сүүлийн клип, влог, болон show мэдээлэл" />
+  <meta property="og:image" content="/assets/og-image.jpg" />
+  <style>
+    :root{--bg:#fff;--fg:#111;--muted:#666;--accent:#000}
+    *{box-sizing:border-box}
+    body{margin:0;font-family:Inter, system-ui, -apple-system, 'Helvetica Neue', Arial; background:var(--bg); color:var(--fg);line-height:1.5}
+    header{background:#111;color:#fff}
+    .container{max-width:1000px;margin:0 auto;padding:28px}
+    nav{display:flex;gap:16px;align-items:center;justify-content:space-between}
+    .brand{font-weight:800;letter-spacing:0.6px}
+    .navlinks{display:flex;gap:12px}
+    a{color:inherit;text-decoration:none}
+    .hero{display:flex;gap:24px;align-items:center;padding:48px 0}
+    .hero .meta{flex:1}
+    .hero h1{margin:0 0 8px;font-size:clamp(28px,5vw,44px)}
+    .hero p{margin:0;color:var(--muted)}
+    .photo{width:220px;height:220px;border-radius:14px;background:#ddd;overflow:hidden;flex:0 0 220px}
+    .photo img{width:100%;height:100%;object-fit:cover;display:block}
+
+    section{padding:36px 0;border-top:1px solid #f2f2f2}
+    h2{margin:0 0 12px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+
+    .card{background:linear-gradient(180deg,#fff,#fbfbfb);padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(12,12,12,0.04)}
+    .skills li{margin-bottom:8px}
+
+    .video-embed iframe{width:100%;height:280px;border-radius:8px;border:0}
+    .videos img{width:100%;height:140px;object-fit:cover;border-radius:8px}
+
+    footer{padding:28px 0;color:var(--muted);font-size:14px;text-align:center}
+
+    @media (max-width:720px){
+      .hero{flex-direction:column;align-items:flex-start}
+      .photo{width:160px;height:160px}
+      nav{padding:8px 0}
+    }
+
+    .btn{display:inline-block;padding:10px 16px;border-radius:10px;border:1px solid var(--accent);text-decoration:none;font-weight:700}
+    .subscribe {background:var(--accent);color:#fff;border:0}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">Shymelle</div>
+        <div class="navlinks">
+          <a href="#about">Тухай</a>
+          <a href="#videos">Видео</a>
+          <a href="#music">Дуу</a>
+          <a href="#events">Арга хэмжээ</a>
+          <a href="#contact">Холбоо</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="meta">
+        <h1>Shymelle — YouTuber & Content Creator</h1>
+        <p>Влог, клип, челленж, behind-the-scenes — Shymelle-ий энгийнээр хуваалцах контент.</p>
+
+        <p style="margin-top:14px;color:var(--muted)">Энэ сайт нь Shymelle-ийн хамгийн сүүлийн видео, сошиал холбоосууд, шоу/booking мэдээллийг төвлөрүүлэн харуулна.</p>
+
+        <div style="margin-top:18px;display:flex;gap:12px;align-items:center">
+          <!-- YouTube subscribe link -->
+          <a class="btn subscribe" href="https://www.youtube.com/channel/UC_REPLACE" target="_blank" rel="noopener">Subscribe on YouTube</a>
+          <a class="btn" href="#videos">Сүүлийн видео</a>
+        </div>
+
+        <p style="margin-top:10px;color:var(--muted)">📺 Одоогийн дагагч: <strong id="subs">—</strong> • 📅 Эхэлсэн: <strong>2023</strong></p>
+      </div>
+
+      <div class="photo">
+        <img src="/assets/shymelle-hero.jpg" alt="Shymelle profile">
+      </div>
+    </section>
+
+    <section id="about" class="container">
+      <h2>Тухай</h2>
+      <div class="grid">
+        <div class="card">
+          <p><strong>Нэр:</strong> Shymelle</p>
+          <p><strong>Төсөөлөл:</strong> YouTuber — өдөр тутмын влог, уран бүтээл, коллабориц, live stream.</p>
+          <p style="color:var(--muted)">Шимэллэ нь үзэгчидтэй шууд холбогдож, сэтгэл хөдлөм, хөгжилтэй контент бүтээдэг.</p>
+        </div>
+        <div class="card">
+          <h3>Контент чиглэл</h3>
+          <ul class="skills">
+            <li>Влог & Дневник</li>
+            <li>Мьюзик-видео & Covers</li>
+            <li>Behind-the-scenes, Travel</li>
+            <li>Live streams & Q&A</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="videos" class="container">
+      <h2>Сүүлийн видео</h2>
+      <div class="grid">
+        <div class="card video-embed">
+          <!-- Replace VIDEO_ID with real video id -->
+          <iframe src="https://www.youtube.com/embed/VIDEO_ID" title="YouTube video player" allowfullscreen></iframe>
+          <p style="margin-top:8px;color:var(--muted)">Сүүлийн клип — "[Видео нэр]"</p>
+        </div>
+        <div class="card">
+          <h3>Popular</h3>
+          <ul>
+            <li><a href="#">Видео 1 — Official MV</a></li>
+            <li><a href="#">Видео 2 — Daily Vlog</a></li>
+            <li><a href="#">Видео 3 — Live performance</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="music" class="container">
+      <h2>Дуу</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Latest single</h3>
+          <p style="color:var(--muted)">Spotify/Apple Music холбоос нэмнэ</p>
+        </div>
+        <div class="card">
+          <h3>Playlists</h3>
+          <p style="color:var(--muted)">YouTube Music / SoundCloud холболт</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="container">
+      <h2>Арга хэмжээ / Booking</h2>
+      <div class="card">
+        <p><strong>Upcoming:</strong> 2025-10-05 — "Shymelle Live" (Ulaanbaatar) — тайлбар оруулах</p>
+        <p style="color:var(--muted)">PR & Booking: booking@example.com</p>
+      </div>
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Холбоо барих</h2>
+      <div class="grid">
+        <div class="card">
+          <p>Имэйл: <a href="mailto:shymelle@example.com">shymelle@example.com</a></p>
+          <p>PR: <a href="mailto:booking@example.com">booking@example.com</a></p>
+        </div>
+        <div class="card">
+          <h3>Сошиал</h3>
+          <p>
+            <a href="https://instagram.com/SHYMELLE" target="_blank" rel="noopener">Instagram</a> •
+            <a href="https://tiktok.com/@SHYMELLE" target="_blank" rel="noopener">TikTok</a> •
+            <a href="https://www.youtube.com/channel/UC_REPLACE" target="_blank" rel="noopener">YouTube</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="press" class="container">
+      <h2>Press Kit</h2>
+      <div class="card">
+        <p>Press kit (BIO, high-res images, logos) — <a href="/assets/Shymelle_Press_Kit.zip">Download</a></p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="container">
+      © Shymelle — All rights reserved.
+      <p style="color:var(--muted);font-size:13px;margin-top:8px">Site made by a fan. For official inquiries use booking@example.com.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const href = a.getAttribute('href');
+        if(href.length>1){ e.preventDefault(); document.querySelector(href).scrollIntoView({behavior:'smooth',block:'start'}); }
+      });
+    });
+
+    // Optional: replace subscriber count via YouTube API later — placeholder now
+    document.getElementById('subs').textContent = '— subscribers';
+  </script>
+
+  <!--
+    DEPLOY INSTRUCTIONS:
+    1) Assets: /assets/ хавтас дотор дараах файлуудыг байрлуулна:
+       - shymelle-hero.jpg (hero зураг)
+       - og-image.jpg (social preview)
+       - Shymelle_Press_Kit.zip (өөрийн high-res зураг, logo, bio)
+       - thumbnails (thumb1.jpg, thumb2.jpg ...)
+
+    2) Видео: iframe-д VIDEO_ID гэсэн газрыг сүүлийн YouTube видеоныхоо id-ээр солино.
+
+    3) GitHub -> Netlify: Шинэ repo үүсгээд энэ index.html болон assets хавтас commit хийгээд
+       Netlify дээр "New site from Git" -> репо-г холбож авто-deploy хийх.
+       Эсвэл drag & drop-оор Netlify дээр upload хийгээд байрлуулж болно.
+
+    4) SEO: title, meta description болон og:image-ийг өөрчилж, sitemap.xml нэмэхийг зөвлөж байна.
+
+    WHAT I CAN DO NEXT (би яг одоо хийж өгнө):
+      • Танд байгаа зургууд болон видео id-үүдийг assets руу байрлуулж, галерейг асаана.
+      • Би meta/SEO, favicon, болон Open Graph тохируулна.
+      • Би GitHub repo бэлдээд Netlify-д холбож бэлэн сайт болгож өгөх боломжтой — хэрэв та зөвшөөрвөл би бүх алхамыг энд хийх болно.
+  -->
+</body>
+</html>
