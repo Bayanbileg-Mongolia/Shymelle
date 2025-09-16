@@ -1,0 +1,56 @@
+<!-- Personal Interests Section -->
+<section id="personal-interests" style="padding: 60px 20px; background: #e0f7ff; font-family: 'Poppins', sans-serif;">
+  <h2 style="text-align:center; font-size:2.5rem; margin-bottom:40px; color:#003366;">Personal Interests</h2>
+  
+  <div class="grid-container" style="display:grid; grid-template-columns: repeat(auto-fit, minmax(200px,1fr)); gap:30px; max-width:1200px; margin:0 auto;">
+    
+    <div class="card" style="background:#ffffff; padding:20px; border-radius:15px; box-shadow:0 4px 15px rgba(0,102,204,0.2); text-align:center; transition: transform 0.3s;">
+      <h3 style="font-size:1.5rem; margin-bottom:10px; color:#003366;">Religion</h3>
+      <p style="color:#0059b3;">Beliefs or spiritual inspirations</p>
+    </div>
+
+    <div class="card" style="background:#ffffff; padding:20px; border-radius:15px; box-shadow:0 4px 15px rgba(0,102,204,0.2); text-align:center; transition: transform 0.3s;">
+      <h3 style="font-size:1.5rem; margin-bottom:10px; color:#003366;">Favorite Songs</h3>
+      <p style="color:#0059b3;">Shymelle's top music picks</p>
+    </div>
+
+    <div class="card" style="background:#ffffff; padding:20px; border-radius:15px; box-shadow:0 4px 15px rgba(0,102,204,0.2); text-align:center; transition: transform 0.3s;">
+      <h3 style="font-size:1.5rem; margin-bottom:10px; color:#003366;">Favorite Words</h3>
+      <p style="color:#0059b3;">Quotes or words she loves</p>
+    </div>
+
+    <div class="card" style="background:#ffffff; padding:20px; border-radius:15px; box-shadow:0 4px 15px rgba(0,102,204,0.2); text-align:center; transition: transform 0.3s;">
+      <h3 style="font-size:1.5rem; margin-bottom:10px; color:#003366;">Favorite Food</h3>
+      <p style="color:#0059b3;">Delicious dishes she enjoys</p>
+    </div>
+
+    <div class="card" style="background:#ffffff; padding:20px; border-radius:15px; box-shadow:0 4px 15px rgba(0,102,204,0.2); text-align:center; transition: transform 0.3s;">
+      <h3 style="font-size:1.5rem; margin-bottom:10px; color:#003366;">Favorite Movies</h3>
+      <p style="color:#0059b3;">Top movies she loves</p>
+    </div>
+
+    <div class="card" style="background:#ffffff; padding:20px; border-radius:15px; box-shadow:0 4px 15px rgba(0,102,204,0.2); text-align:center; transition: transform 0.3s;">
+      <h3 style="font-size:1.5rem; margin-bottom:10px; color:#003366;">Inspirations</h3>
+      <p style="color:#0059b3;">Lessons or life inspirations</p>
+    </div>
+
+    <div class="card" style="background:#ffffff; padding:20px; border-radius:15px; box-shadow:0 4px 15px rgba(0,102,204,0.2); text-align:center; transition: transform 0.3s;">
+      <h3 style="font-size:1.5rem; margin-bottom:10px; color:#003366;">Gallery</h3>
+      <p style="color:#0059b3;">Photos and visual memories</p>
+    </div>
+
+    <div class="card" style="background:#ffffff; padding:20px; border-radius:15px; box-shadow:0 4px 15px rgba(0,102,204,0.2); text-align:center; transition: transform 0.3s;">
+      <h3 style="font-size:1.5rem; margin-bottom:10px; color:#003366;">MOVIE</h3>
+      <p style="color:#0059b3;">Movies she has acted in or played</p>
+    </div>
+
+  </div>
+</section>
+
+<!-- Hover effect -->
+<style>
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,102,204,0.3);
+  }
+</style>
